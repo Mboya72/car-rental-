@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Phase1.css">
+    <title>Rental72 Available Cars</title>
+</head>
+<body>
+    <header id="head">
+        <h1>Rental<span>72</span>  Available Cars</h1>
+    </header>
+    <main>
+        <form id="rental-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location" required>
+
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" required>
+
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" required>
+
+            <label for="car-select">Select Car:</label>
+            <select id="car-select" required>
+                <option value="">Select a car</option>
+            </select>
+
+            <button type="submit">Rent Now</button>
+        </form>
+
+        <div id="car-list" class="car-list"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Rental Service</p>
+    </footer>
+    <script src="Phase1.js"></script>
+</body>
+</html>

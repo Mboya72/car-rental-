@@ -1,0 +1,100 @@
+{
+    "add-cars":[
+        {
+            "id": 1,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2019,
+            "price": 40,
+            "image": "https://i.pinimg.com/564x/bd/2d/c1/bd2dc1361e85893ea92aba313d63d6d4.jpg"
+        },
+        {
+            "id": 2,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2020,
+            "price": 35,
+            "image": "https://c4.wallpaperflare.com/wallpaper/146/267/602/honda-honda-civic-type-r-car-red-car-wallpaper-preview.jpg"
+        },
+        {
+            "id": 3,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 60,
+            "image": "https://wallpapercat.com/w/full/3/c/d/262054-3840x2160-desktop-4k-ford-mustang-background.jpg"
+        },
+        {
+            "id": 4,
+            "make": "Range Rover",
+            "model": "Sport",
+            "year": 2022,
+            "price": 90,
+            "image": "https://wallpapercat.com/w/full/5/f/9/157932-3840x2160-desktop-4k-range-rover-wallpaper-image.jpg?id=1729083006"
+        },
+        {
+            "id": 5,
+            "make": "Subaru",
+            "model": "Wrx Sti",
+            "year": 2021,
+            "price": 48,
+            "image": "https://mrwallpaper.com/images/high/showcase-blue-subaru-wrx-sti-4k-m3217mwzrl5armfl.webp"
+        },
+        {
+            "id": 6,
+            "make": "BMW",
+            "model": "M5",
+            "year": 2020,
+            "price": 70,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/1423.jpg"
+        },
+        {
+            "id": 7,
+            "make": "Volvo",
+            "model": "C40 Recharge",
+            "year": 2023,
+            "price": 100,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/4818.jpg"
+        },
+        {
+            "id": 8,
+            "make": "Mercedes-AMG",
+            "model": "G 63",
+            "year": 2021,
+            "price": 85,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/16351.jpg"
+        },
+        {
+            "id": 9,
+            "make": "Ram TRX",
+            "model": "Hennessey",
+            "year": 2023,
+            "price": 65,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/16083.jpeg"
+        },
+        {
+            "id": 10,
+            "make": "Porsche 911",
+            "model": "GT3 RS",
+            "year": 2019,
+            "price": 80,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/12365.jpg"
+        },
+        {
+            "id": 11,
+            "make": "Mercedes-Benz",
+            "model": "Sprinter",
+            "year": 2021,
+            "price": 68,
+            "image": "https://wallpapercave.com/wp/wp4130081.jpg"
+        },
+        {
+            "id": 12,
+            "make": "Bugatti Chiron",
+            "model": "Pur Sport",
+            "year": 2021,
+            "price": 95,
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/4115.jpg"
+        }
+    ]
+    }
