@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffbe00;
+}
+
+body {
+    /* background-image: url(HD\ wallpaper_\ car\,\ vehicle\,\ BMW\,\ dark\,\ digital\ art.jpeg); */
+    /* background-position: center;
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth; */
+    background-color: black;
+}
+
+h1 span {
+    color: #ffbe00;
+}
+
+span {
+    color: #ca1f3d;
+    font-size: 30px;
+}
+#Welcome{
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ca1f3d;
+    align-items: center;
+}
+
+#nav button {
+    margin: 0px;
+}
+
+h1 {
+    color: #FAE9EC;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #ffbe00;
+    padding: 20px;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: #ffbe00;
+}
+
+/* Home */
+#home {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 500;
+    color: #ca1f3d;
+    text-decoration: underline dotted;
+}
+h4{
+    font-size: 45px;
+}
+#fleet p {
+    font-size: 30px;
+}
+
+#fleet {
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    border: 1px solid #ffbe00;
+    border-radius: 30px;
+    width: 700px;
+    max-height: 400px;
+    margin: 20px;
+    box-shadow: #ffbe00 5px 5px 2px 2px;
+}
+
+img:hover {}
+
+h3 {
+    font-size: 40px;
+    color: #ca1f3d;
+}
+
+.A {
+    position: relative;
+    text-align: center;
+}
+
+.H {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Rent */
+input {
+    background-color: #ffbe00;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ca1f3d;
+    margin: 20px;
+}
+
+.btn {
+    max-width: 600px;
+}
+
+#works {
+    display: flex;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+::placeholder {
+    color: #ca1f3d;
+}
+
+#rent {
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: #ffbe00;
+    background-color: #ca1f3d;
+}
+
+button:hover {
+    color: #ca1f3d;
+    background-color: #ffbe00;
+}
+
+#rent p {
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+#Policies {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    padding: 7px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+/* Services */
+#services {
+    text-align: center;
+}
+
+#why {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+li {
+    font-size: 25px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+
+li {
+    text-justify: center;
+}
+#socials{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#socials a{
+    padding: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px #ca1f3d;
+}
+#socials a svg{
+height: 32px;
+fill: black;
+}
+#socials #yt{
+    fill: red;
+}
+#socials #x{
+    fill: #1DA1F2;
+}
+#socials #insta{
+    fill: #E4405F;
+}
+#socials #gt{
+    fill: #2dba4e;
+}
+#socials #v{
+    fill: whitesmoke;
+}
+#socials #g{
+    fill: #FBBC05;
+}
+/* Rent.html */
+#rental-form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 30px 10px;
+
+}
+
+#head {
+    justify-content: center;
+}
+
+option {
+    color: black;
+    background-color: #ffbe00;
+    font-size: 20px;
+}
+
+#car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#body {
+    text-align: center;
+}
+
+#available-cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#h1 {
+    font-size: 35px;
+    color: #ca1f3d;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+}

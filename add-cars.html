@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <link rel="stylesheet" href="Phase1.css">
+</head>
+<body id="body">
+    <h1 id="h1">Rental<span>72</span> cars you may want us to add and it's price per day</h1>
+    <div id="add-car-form">
+        <h2>Add a New Car</h2>
+        <form id="car-form">
+            <label for="make">Make:</label>
+            <input type="text" id="make" required>
+
+            <label for="model">Model:</label>
+            <input type="text" id="model" required>
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" required>
+
+            <label for="price">Price per day:</label>
+            <input type="number" id="price" required>
+
+            <label for="image">Image URL:</label>
+            <input type="url" id="image" required>
+
+            <button type="submit">Add Car</button>
+        </form>
+    </div>
+
+    <div id="car--list">
+        <h2>Available Cars</h2>
+        <div id="available-cars"></div>
+    </div>
+
+    <script src="add-cars.js"></script>
+</body>
+</html>
