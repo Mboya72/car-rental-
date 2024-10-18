@@ -27,12 +27,14 @@ span {
     color: #ca1f3d;
     font-size: 30px;
 }
-#Welcome{
+
+#Welcome {
     border: 1px solid;
     padding: 10px;
     margin: 20px;
     border-radius: 30px;
 }
+
 header {
     width: 100%;
     display: flex;
@@ -82,9 +84,11 @@ h2 {
     color: #ca1f3d;
     text-decoration: underline dotted;
 }
-h4{
+
+h4 {
     font-size: 45px;
 }
+
 #fleet p {
     font-size: 30px;
 }
@@ -151,7 +155,9 @@ input {
 
 ::placeholder {
     color: #ca1f3d;
-}a {
+}
+
+a {
     margin: 20px;
     text-decoration: none;
     color: black;
@@ -218,12 +224,14 @@ li {
 li {
     text-justify: center;
 }
-#socials{
+
+#socials {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-#socials a{
+
+#socials a {
     padding: 10px;
     border-radius: 50%;
     width: 64px;
@@ -234,28 +242,36 @@ li {
     place-items: center;
     box-shadow: 0 5px 10px #ca1f3d;
 }
-#socials a svg{
-height: 32px;
-fill: black;
+
+#socials a svg {
+    height: 32px;
+    fill: black;
 }
-#socials #yt{
+
+#socials #yt {
     fill: red;
 }
-#socials #x{
+
+#socials #x {
     fill: #1DA1F2;
 }
-#socials #insta{
+
+#socials #insta {
     fill: #E4405F;
 }
-#socials #gt{
+
+#socials #gt {
     fill: #2dba4e;
 }
-#socials #v{
+
+#socials #v {
     fill: whitesmoke;
 }
-#socials #g{
+
+#socials #g {
     fill: #FBBC05;
 }
+
 /* Rent.html */
 #rental-form {
     display: flex;
@@ -297,23 +313,25 @@ option {
     font-size: 35px;
     color: #ca1f3d;
 }
-footer{
+
+footer {
     text-align: center;
     margin: 20px;
 }
 
 
 @media screen and (max-width: 600px) {
-    body {
+    body {}
 
-    }
     header {
         width: 100%;
         display: flex;
         align-items: center;
         height: 25px;
     }
-    header, footer {
+
+    header,
+    footer {
         padding: 10px;
     }
 
@@ -321,30 +339,37 @@ footer{
         background-color: #FBBC05;
         padding: 10px;
     }
-#nav{
-    font-size: 12px;
-    padding: 2px;
-}
-a {
-    margin: 8px;
-    text-decoration: none;
-    color: black;
-}
-span{
-    font-size: 20px;
-}
+
+    #nav {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    a {
+        margin: 8px;
+        text-decoration: none;
+        color: black;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
     h1 {
         font-size: 20px;
     }
+
     h2 {
         font-size: 30px;
         font-weight: 500;
         color: #ca1f3d;
         text-decoration: underline dotted;
     }
-    h4{
+
+    h4 {
         font-size: 25px;
     }
+
     p {
         font-size: 14px;
     }
@@ -353,40 +378,41 @@ span{
         font-size: 14px;
     }
 
-img {
-    border: 1px solid #ffbe00;
-    border-radius: 30px;
-    width: 400px;
+    img {
+        border: 1px solid #ffbe00;
+        border-radius: 30px;
+        width: 400px;
 
-    max-height: 400px;
-    margin: 10px;
-    box-shadow: #ffbe00 5px 5px 2px 2px;
-}
-
-#why {
-    border: 1px solid;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    margin: 10px;
-    text-align: center;
-}
-#works {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    border-radius: 30px;
-    padding: 10px;
-    margin: 10px;
-}
-
-#socials a svg{
-    height: 14px;
-    fill: black;
+        max-height: 400px;
+        margin: 10px;
+        box-shadow: #ffbe00 5px 5px 2px 2px;
     }
 
-    #socials a{
+    #why {
+        border: 1px solid;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #works {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #socials a svg {
+        height: 14px;
+        fill: black;
+    }
+
+    #socials a {
         padding: 10px;
         border-radius: 50%;
         width: 34px;
