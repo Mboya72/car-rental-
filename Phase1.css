@@ -297,3 +297,53 @@ footer{
     text-align: center;
     margin: 20px;
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #fleet p {
+        font-size: 14px;
+    }
+
+img {
+    border: 1px solid #ffbe00;
+    border-radius: 30px;
+    width: 400px;
+    max-height: 400px;
+    margin: 20px;
+    box-shadow: #ffbe00 5px 5px 2px 2px;
+}
+
+#why {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+}
+#works {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+}
