@@ -348,15 +348,15 @@ img {
 }
 
 #socials a svg{
-    height: 20px;
+    height: 14px;
     fill: black;
     }
 
     #socials a{
         padding: 10px;
         border-radius: 50%;
-        width: 44px;
-        height: 44px;
+        width: 34px;
+        height: 34px;
         box-sizing: border-box;
         flex-shrink: 0;
         display: grid;
