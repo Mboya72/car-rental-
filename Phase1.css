@@ -17,6 +17,7 @@ body {
     background-size: cover;
     scroll-behavior: smooth; */
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 h1 span {
@@ -350,7 +351,9 @@ footer {
         text-decoration: none;
         color: black;
     }
-
+#nav a:hover{
+color: #ca1f3d;
+}
     span {
         font-size: 20px;
     }
